@@ -1,0 +1,342 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Velvetique";
+  src: url("/fonts/Velvetique/Velvetique.ttf");
+}
+
+@font-face {
+  font-family: "Rollgates";
+  src: url("/fonts/Rollgates/Rollgates-Luxury.ttf");
+}
+
+@font-face {
+  font-family: "RollgatesItalic";
+  src: url("/fonts/Rollgates/Rollgates-Luxury-Italic.ttf");
+}
+
+iframe {
+  height: 100vh;
+  overflow: hidden;
+}
+
+iframe.obdgry {
+  height: 1601px;
+  overflow: hidden;
+}
+
+iframe.leadership {
+  height: 1020px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+iframe.companies2 {
+  height: 2780px;
+}
+
+iframe.completepro {
+  margin-top: 60px;
+  height: 4100px;
+}
+
+iframe.award4 {
+  margin-top: 80px;
+  height: 700px;
+
+  overflow: hidden;
+}
+
+iframe.ongoingpro {
+  margin-top: 60px;
+  height: 1600px;
+}
+
+iframe.commer {
+  margin-top: 60px;
+  height: 1130px;
+}
+
+iframe.calculator {
+  height: 2560px;
+  margin-top: 40px;
+}
+
+iframe.homeloan {
+  margin-top: 60px;
+  height: 1600px;
+}
+
+iframe.blogss {
+  margin-top: 60px;
+  height: 6900px;
+}
+
+iframe.media {
+  margin-top: 60px;
+  height: 6200px;
+}
+
+iframe.luxuryt {
+  height: 100vh !important;
+
+}
+
+iframe.community {
+  margin-top: 60px;
+  height: 6600px;
+}
+
+iframe.contactus {
+  margin-top: 60px;
+  height: 1500px;
+}
+
+iframe.sustainability {
+  /* margin-top: 90px; */
+  height: 3430px;
+}
+
+iframe.term {
+  margin-top: 90px;
+  height: 1000px;
+}
+
+iframe.goldern {
+  height: 3820px;
+}
+
+@media screen and (max-width: 1470px) {
+  iframe.obdgry {
+    height: 1600px;
+
+    overflow: hidden;
+  }
+
+  iframe.ongoingpro {
+    margin-top: 60px;
+    height: 1500px;
+  }
+
+  /* iframe.sustainability{
+ 
+    height: 1700px  ;
+  } */
+  iframe.media {
+    margin-top: 60px;
+    height: 6700px;
+  }
+}
+
+
+@media (max-width: 1470px) and (max-zoom: 100%) {
+  iframe.obdgry {
+    height: 1600px;
+
+    overflow: hidden;
+  }
+
+  iframe.ongoingpro {
+    margin-top: 60px;
+    height: 1400px;
+  }
+
+  iframe.sustainability {
+
+    height: 1700px;
+  }
+
+  iframe.media {
+    margin-top: 60px;
+    height: 6700px;
+  }
+}
+
+@media (max-width: 1470px) and (max-zoom: 110%) {
+  iframe.obdgry {
+    height: 1590px;
+
+    overflow: hidden;
+  }
+
+  iframe.ongoingpro {
+    margin-top: 60px;
+    height: 1400px;
+  }
+
+  iframe.sustainability {
+
+    height: 1700px;
+  }
+
+  iframe.media {
+    margin-top: 60px;
+    height: 6700px;
+  }
+}
+
+@media (max-width: 1470px) and (max-zoom: 125%) {
+  iframe.obdgry {
+    height: 1590px;
+
+    overflow: hidden;
+  }
+
+  iframe.ongoingpro {
+    margin-top: 60px;
+    height: 1400px;
+  }
+
+  iframe.sustainability {
+
+    height: 1700px;
+  }
+
+  iframe.media {
+    margin-top: 60px;
+    height: 6700px;
+  }
+}
+.mobileview{
+  display: none ;
+}
+.desktopview{
+display: block ;
+}
+@media (max-width: 480px) {
+  iframe.obdgry {
+    height: 2914px !important;
+
+    overflow: hidden;
+  }
+  .mobileview{
+    display: block !important;
+  }
+.desktopview{
+  display: none !important;
+}
+  iframe.ongoingpro {
+    margin-top: 60px;
+    height: 2745px !important;
+  }
+
+  iframe.commer {
+    margin-top: 60px;
+    height: 1392px !important;
+  }
+
+  iframe.completepro {
+    margin-top: 60px;
+    height: 13060px !important;
+  }
+
+  iframe.calculator {
+    height: 5282px !important;
+    margin-top: 40px;
+  }
+
+  iframe.homeloan {
+    margin-top: 60px;
+    height: 3598px !important;
+  }
+
+  iframe.blogss {
+    margin-top: 60px;
+    height: 21960px !important;
+  }
+
+  iframe.media {
+    margin-top: 60px;
+    height: 22196px !important;
+  }
+
+  iframe.community {
+    margin-top: 60px;
+    height: 9300px !important;
+  }
+
+  iframe.contactus {
+    margin-top: 60px;
+    height: 2400px !important;
+  }
+
+  iframe.sustainability {
+
+    height: 3158px !important;
+  }
+
+  iframe.goldern {
+    height: 5270px !important;
+  }
+
+  iframe.term {
+    margin-top: 90px;
+    height: 2357px !important;
+  }
+  .opacity-80 {
+    opacity: 0.8;
+    margin-top: 80px !important;
+}
+}
+
+@media (max-width: 768px) {
+  iframe.obdgry {
+    height: 2386px;
+
+    overflow: hidden;
+  }
+
+  iframe.ongoingpro {
+    margin-top: 60px;
+    height: 4650px;
+  }
+
+  iframe.commer {
+    margin-top: 60px;
+    height: 800px;
+  }
+
+  iframe.completepro {
+    margin-top: 60px;
+    height: 10326px;
+  }
+
+  iframe.calculator {
+    height: 3963px;
+    margin-top: 40px;
+  }
+
+  iframe.homeloan {
+    margin-top: 60px;
+    height: 2398px;
+  }
+
+  iframe.blogss {
+    margin-top: 60px;
+    height: 33074px;
+  }
+
+  iframe.community {
+    margin-top: 60px;
+    height: 7700px;
+  }
+
+  iframe.contactus {
+    margin-top: 60px;
+    height: 1600px;
+  }
+
+  iframe.sustainability {
+
+    height: 5000px;
+  }
+
+
+}
+
+img.size-12.hover\:drop-shadow-xl.absolute.-left-\[50\%\].top-\[35\%\].cursor-pointer.z-50.border-black.rounded-full,
+img.size-12.hover\:drop-shadow-xl.absolute.-left-\[42\%\].top-\[35\%\].cursor-pointer.z-50.border-black.rounded-full {
+  margin-top: 80px;
+}
